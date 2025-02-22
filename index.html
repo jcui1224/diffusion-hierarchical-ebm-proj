@@ -147,19 +147,29 @@
             EBM sampling and thus facilitate EBM learning. Our extensive experiments demonstrate a superior performance
             of our diffusion-learned EBM prior on various challenging tasks.</p>
     </div>
+    
 
-<!--    <hr>-->
-<!--    <pre class="bib">-->
-<!--    @article{Cui_2024_Dual,-->
-<!--      title={Learning Energy-based Model via Dual-MCMC Teaching},-->
-<!--      author={Cui, Jiali and Han, Tian},-->
-<!--      journal={Advances in Neural Information Processing Systems},-->
-<!--      volume={36},-->
-<!--      year={2024}-->
-<!--    }-->
-<!--    </pre>-->
+
     <hr>
-
+    <pre class="bib">
+        @InProceedings{pmlr-v235-cui24b,
+          title = 	 {Learning Latent Space Hierarchical {EBM} Diffusion Models},
+          author =       {Cui, Jiali and Han, Tian},
+          booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+          pages = 	 {9633--9645},
+          year = 	 {2024},
+          editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+          volume = 	 {235},
+          series = 	 {Proceedings of Machine Learning Research},
+          month = 	 {21--27 Jul},
+          publisher =    {PMLR},
+          pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/cui24b/cui24b.pdf},
+          url = 	 {https://proceedings.mlr.press/v235/cui24b.html},
+          abstract = 	 {This work studies the learning problem of the energy-based prior model and the multi-layer generator model. The multi-layer generator model, which contains multiple layers of latent variables organized in a top-down hierarchical structure, typically assumes the Gaussian prior model. Such a prior model can be limited in modelling expressivity, which results in a gap between the generator posterior and the prior model, known as the prior hole problem. Recent works have explored learning the energy-based (EBM) prior model as a second-stage, complementary model to bridge the gap. However, the EBM defined on a multi-layer latent space can be highly multi-modal, which makes sampling from such marginal EBM prior challenging in practice, resulting in ineffectively learned EBM. To tackle the challenge, we propose to leverage the diffusion probabilistic scheme to mitigate the burden of EBM sampling and thus facilitate EBM learning. Our extensive experiments demonstrate a superior performance of our diffusion-learned EBM prior on various challenging tasks.}
+        }
+    </pre>
+    <hr>
+    
     <div class="container">
         <h2 class="title">Poster</h2>
         <iframe src="static/pdfs/ICML2024_Poster.pdf" width="1200" height="650"></iframe>
